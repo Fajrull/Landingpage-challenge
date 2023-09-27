@@ -1,0 +1,228 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin-inline: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  margin-top: 24px;
+}
+
+header.navbar h1 {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+header.navbar .navbar-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+header.navbar .navbar-list ul {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+header.navbar .navbar-list ul li .br {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+header.navbar .navbar-list ul li .br:hover {
+  background-color: black;
+  color: white;
+}
+
+header.navbar .navbar-list ul li a {
+  text-decoration: none;
+  color: unset;
+}
+
+section.hero {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-position: left -10px center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section.hero .hero-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+section.hero .hero-title h1 {
+  font-size: 64px;
+}
+
+section.hero .hero-title p {
+  font-size: 18px;
+  margin-top: 18px;
+}
+
+section.hero .hero-title .line {
+  width: 60px;
+  height: 4px;
+  background-color: #414141;
+  margin-top: 15px;
+  border-radius: 99px;
+}
+
+section.content {
+  height: 90vh;
+  background-color: #dedede;
+}
+
+section.content h1 {
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 84px 0 12px 0;
+}
+
+section.content .line {
+  width: 60px;
+  height: 4px;
+  background-color: #414141;
+  border-radius: 99px;
+  margin: 0 auto;
+}
+
+section.content div.content-descripiton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.content div.content-descripiton .line {
+  width: 60px;
+  height: 4px;
+  background-color: #414141;
+  margin-top: 15px;
+  border-radius: 99px;
+  margin: 0 auto;
+}
+
+section.content div.content-descripiton .box {
+  height: 400px;
+  width: 300px;
+  border: 1px solid black;
+  margin: 24px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px gray;
+  background-color: white;
+}
+
+section.content div.content-descripiton .box p {
+  margin: 24px;
+  text-align: center;
+  font-style: italic;
+}
+
+section.content div.content-descripiton .box .desc {
+  margin-top: 24px;
+}
+
+main {
+  display: flex;
+  height: 580px;
+}
+
+main img {
+  width: 640px;
+  height: 580px;
+}
+
+main .main-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  height: 600px;
+  width: 500px;
+  margin: 0 auto;
+  font-style: italic;
+}
+
+main .main-description .line {
+  width: 60px;
+  height: 4px;
+  background-color: #414141;
+  border-radius: 99px;
+  margin-bottom: 24px;
+  margin-top: 10px;
+}
+
+section.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background-color: #dedede;
+}
+
+section.contact h1,
+p,
+input {
+  margin-bottom: 18px;
+}
+
+section.contact input {
+  width: 450px;
+  height: 50px;
+  padding: 12px;
+}
+
+section.contact button {
+  width: 104px;
+  height: 35px;
+}
+
+footer {
+  width: 100%;
+  height: 60px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: end;
+  gap: 24px;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin: 20px 62px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: unset;
+}
